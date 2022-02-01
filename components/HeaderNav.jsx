@@ -91,7 +91,7 @@ const HeaderNav = () => {
                                     </Popover.Button>
                                 </div>
                             </div>
-                            <div className="mt-6">
+                            <div className="mt-6 pb-3 border-b-[2px] border-[#ed1c24]">
                                 <nav className="grid gap-y-8">
                                     <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Amoeba</Link>
                                     <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Avalon</Link>
@@ -107,7 +107,7 @@ const HeaderNav = () => {
                                 </nav>
                             </div>
                         </div>
-                        <div className="py-6 px-5 space-y-6">
+                        <div className="py-2 px-5 space-y-6">
                             <div className="grid grid-cols-2 gap-y-4 gap-x-8">
                                 <Link href="/media" className="text-base font-medium text-gray-900 hover:text-gray-700">
                                     Media
