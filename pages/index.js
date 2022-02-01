@@ -10,7 +10,6 @@ export default function Home({ posts }) {
         <meta name="description" content="Umarex USA Brands" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <GreyNav />
       <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
         <div className='lg:col-span-12'><p>Few brands are owned by family.</p></div>
       </div>
