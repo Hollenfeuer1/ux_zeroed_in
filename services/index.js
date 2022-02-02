@@ -102,6 +102,7 @@ export const getSimilarPosts = async (categories, slug) => {
           url
         }
         createdAt
+        publishedDate
         slug
       }
     }
