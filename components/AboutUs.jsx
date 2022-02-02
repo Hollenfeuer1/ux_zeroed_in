@@ -13,10 +13,10 @@ const AboutUs = () => {
                 </div>
             </div>
             <div className='grid grid-cols-12'>
-                <div class='inline-grid grid-cols-2 col-start-3 gap-4'>
+                <div className='inline-grid grid-cols-2 col-start-3 gap-4'>
                     <Image src='/the_umarex_story.png' height={966} width={59} alt='The Umarex Story' />
                 </div>
-                <div class="inline-grid grid-cols-1 col-span-3 gap-2">
+                <div className="inline-grid grid-cols-1 col-span-3 gap-2">
                 <div id='1972'>
                         <h3 className='font-bold text-3xl text-[#939598]'>1972</h3>
                         <p>Wulf-Heinz Pflaumer & Franz Wonisch are working on a venture that would come to be called Umarex.</p>
@@ -34,7 +34,7 @@ const AboutUs = () => {
                         <p>Umarex USA expands air rifle line with the introduction of Ruger®, Walther® and Hammerli®</p>
                     </div>
                 </div>
-                <div class="inline-grid grid-cols-1 col-span-3 gap-2">
+                <div className="inline-grid grid-cols-1 col-span-3 gap-2">
                 <div id='2009'>
                         <h3 className='font-bold text-3xl text-[#939598]'>2009</h3>
                         <p>Umarex USA continues to grow doubling sales over 2008 and breaks new ground on a new facility</p>
