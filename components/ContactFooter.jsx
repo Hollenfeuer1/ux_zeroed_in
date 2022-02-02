@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const Footer = () => {
+const ContactFooter = () => {
     return (
         <footer className='text-center lg:text-left bg-[#ed1c24] text-white'>
             <div className='flex justify-center items-center lg:justify-between p-6'>
@@ -55,4 +55,4 @@ const Footer = () => {
     )
 };
 
-export default Footer;
+export default ContactFooter;

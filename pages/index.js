@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import GreyNav from '../components/GreyNav';
-import Footer from '../components/Footer';
+import ContactFooter from '../components/ContactFooter';
+import AboutUs from '../components/AboutUs';
 
 export default function Home({ posts }) {
   return (
@@ -10,10 +10,8 @@ export default function Home({ posts }) {
         <meta name="description" content="Umarex USA Brands" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
-        <div className='lg:col-span-12'><p>Few brands are owned by family.</p></div>
-      </div>
-      <Footer />
+      <AboutUs />
+      <ContactFooter />
     </div>
   )
 }
