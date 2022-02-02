@@ -1,7 +1,8 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 
-import { PostDetail, Categories, PostWidget, Author, Loader } from '../../components';
+import { PostDetail, Categories, PostWidget, Author } from '../../components';
+import Loader from '../../components/Loader';
 import { getPosts, getPostDetails } from '../../services';
 
 const PostDetails = ({ post }) => {
