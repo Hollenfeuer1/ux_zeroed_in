@@ -7,9 +7,9 @@ const AboutUs = () => {
             <div className='flex flex-row justify-center items-center my-4'>
                 <div className=''><Image src='/ux_zeroed_in_stacked.png' height={148} width={219} alt='Umarex Zeroed In' /></div>
                 <div className='mx-8 w-2/5'>
-                    <h2 className='uppercase text-2xl font-semibold'>Umarex® USA</h2>
+                    <h2 className='uppercase text-2xl font-semibold'>Umarex&reg; USA</h2>
                     <hr className='border-2px border-[#ed1c24]' />
-                    <p> Few brands are owned by family owned companies anymore, but that's not the case here. We are family owned. Our owners believe in family values and encourage us to provide you, our customer, with the recreational products you, your family and friends can use to enjoy and experience the wild outdoors. Check out our vast offering: Axeon Optics, Umarex Airguns, Elite Force Airsoft, Rekt Dart Launchers, & T4E Training.</p>
+                    <p> Few brands are owned by family owned companies anymore, but that&#39;s not the case here. We are family owned. Our owners believe in family values and encourage us to provide you, our customer, with the recreational products you, your family and friends can use to enjoy and experience the wild outdoors. Check out our vast offering: Axeon Optics, Umarex Airguns, Elite Force Airsoft, Rekt Dart Launchers, &amp; T4E Training.</p>
                 </div>
             </div>
             <div className='grid grid-cols-12'>
@@ -19,7 +19,7 @@ const AboutUs = () => {
                 <div className="inline-grid grid-cols-1 col-span-3 gap-2">
                 <div id='1972'>
                         <h3 className='font-bold text-3xl text-[#939598]'>1972</h3>
-                        <p>Wulf-Heinz Pflaumer & Franz Wonisch are working on a venture that would come to be called Umarex.</p>
+                        <p>Wulf-Heinz Pflaumer &amp; Franz Wonisch are working on a venture that would come to be called Umarex.</p>
                     </div>
                     <div id='1993'>
                         <h3 className='font-bold text-3xl text-[#939598]'>1993</h3>
@@ -31,7 +31,7 @@ const AboutUs = () => {
                     </div>
                     <div id='2008'>
                         <h3 className='font-bold text-3xl text-[#939598]'>2008</h3>
-                        <p>Umarex USA expands air rifle line with the introduction of Ruger®, Walther® and Hammerli®</p>
+                        <p>Umarex USA expands air rifle line with the introduction of Ruger&reg;, Walther&reg; and Hammerli&reg;</p>
                     </div>
                 </div>
                 <div className="inline-grid grid-cols-1 col-span-3 gap-2">
@@ -53,7 +53,7 @@ const AboutUs = () => {
                     </div>
                     <div id='today'>
                         <h3 className='uppercase font-bold text-3xl text-[#ed1c24]'>Today</h3>
-                        <p>While Umarex remains the "King of Replicas" in airguns, its patented technology like the safety system and dual round magazine of the Umarex Hammer coupled with moder-day air filling solutions and unique optic intellectual properties insures Umarex continues to be zeroed in.</p>
+                        <p>While Umarex remains the &#34;King of Replicas&#34; in airguns, its patented technology like the safety system and dual round magazine of the Umarex Hammer coupled with moder-day air filling solutions and unique optic intellectual properties insures Umarex continues to be zeroed in.</p>
                     </div>
                 </div>
             </div>
