@@ -5,7 +5,7 @@ const graphqlAPI = process.env.NEXT_PUBLIC_GRAPHCMS_ENDPOINT;
 export const getPosts = async () => {
   const query = gql`
     query MyQuery {
-      postsConnection {
+      postsConnection(orderBy: publishedDate_DESC) {
         edges {
           cursor
           node {
@@ -212,7 +212,7 @@ export const getRecentPosts = async () => {
   const query = gql`
     query GetPostDetails() {
       posts(
-        orderBy: createdAt_ASC
+        orderBy: publishedDate_DESC
         last: 3
       ) {
         title

@@ -82,7 +82,7 @@ const HeaderNav = () => {
                         <div className="pt-5 pb-6 px-5">
                             <div className="flex items-center justify-between">
                                 <div>
-                                    <Link href='/'><Image src='/ux_home_logo.png' alt='Umarex USA Logo' width={300} height={27} className='md:float-right mt-2 align-middle ml-4 cursor-pointer' /></Link>
+                                    <Link href='/' passHref><Image src='/ux_home_logo.png' alt='Umarex USA Logo' width={300} height={27} className='md:float-right mt-2 align-middle ml-4 cursor-pointer' /></Link>
                                 </div>
                                 <div className="-mr-2">
                                     <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -93,7 +93,7 @@ const HeaderNav = () => {
                             </div>
                             <div className="mt-6 pb-3 border-b-[2px] border-[#ed1c24]">
                                 <nav className="grid gap-y-8">
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Amoeba</Link>
+                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Amoeba</Link>
                                     <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Avalon</Link>
                                     <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Beretta</Link>
                                     <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Colt</Link>

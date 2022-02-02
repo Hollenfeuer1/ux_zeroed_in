@@ -4,7 +4,7 @@ import { getCategories } from '../services';
 
 const Categories = () => {
     const [categories, setCategories] = useState([]);
-    
+
     useEffect(() => {
         getCategories().then((newCategories) => {
           setCategories(newCategories);
@@ -16,7 +16,7 @@ const Categories = () => {
                 Categories
             </h3>
             {categories.map((category, index) => (
-                <Link key={index} href={`/category/${category.slug}`}>
+                <Link key={index} href={`/category/${category.slug}`} passHref>
                     <span className={`cursor-pointer block ${(index === categories.length - 1) ? 'border-b-0' : 'border-b'} pb-3 mb-3`}>
                         {category.name}
                     </span>
