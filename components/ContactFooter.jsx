@@ -48,7 +48,7 @@ const ContactFooter = () => {
                     </p>
                 </div>
                 <div className='hidden lg:block'>
-                    <Image src='/ux_building.jpg' width={350} height={171} />
+                    <Image src='/ux_building.jpg' width={350} height={171} alt='Umarex USA Facility' />
                 </div>
             </div>
         </footer>

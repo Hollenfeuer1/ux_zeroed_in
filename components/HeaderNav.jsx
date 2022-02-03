@@ -16,7 +16,7 @@ const HeaderNav = () => {
             <div className='max-w-7xl mx-auto px-4 sm:px-6'>
                 <div className='flex justify-between items-center py-6 md:justify-start md:space-x-10'>
                     <div className='flex justify-start lg:w-0 lg:flex-1'>
-                        <Link href='/'><Image src='/ux_home_logo.png' alt='Umarex USA Logo' width={300} height={27} className='md:float-right mt-2 align-middle ml-4 cursor-pointer' /></Link>
+                        <Link href='/' passHref><Image src='/ux_home_logo.png' alt='Umarex USA Logo' width={300} height={27} className='md:float-right mt-2 align-middle ml-4 cursor-pointer' /></Link>
                     </div>
                 <div className='-mr-2 -my-2 md:hidden'>
                     <Popover.Button className='rounded-md p-2 inline-flex items center justify-center text-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500'>
@@ -44,17 +44,17 @@ const HeaderNav = () => {
                                     <Popover.Panel className='absolute z-40 -ml-5 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2'>
                                         <div className='rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden'>
                                             <div className='relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 text-base font-medium text-white bg-[#635f5f]'>
-                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Amoeba</Link>
-                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Avalon</Link>
-                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Beretta</Link>
-                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Colt</Link>
-                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>GLOCK</Link>
-                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Heckler & Koch</Link>
-                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Ruger</Link>
-                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>RWS</Link>
-                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Smith & Wesson</Link>
-                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>VFC</Link>
-                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Walther</Link>
+                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Amoeba</Link>
+                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Avalon</Link>
+                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Beretta</Link>
+                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Colt</Link>
+                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>GLOCK</Link>
+                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Heckler & Koch</Link>
+                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Ruger</Link>
+                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>RWS</Link>
+                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Smith & Wesson</Link>
+                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>VFC</Link>
+                                                <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Walther</Link>
                                             </div>
                                         </div>
                                     </Popover.Panel>
@@ -62,9 +62,9 @@ const HeaderNav = () => {
                             </>
                         )}
                     </Popover>
-                    <Link href='/media' className='hover:text-gray-900'>Media</Link>
-                    <Link href='/' className='hover:text-gray-900'>About Us</Link>
-                    <Link href='/' className='hover:text-gray-900'>Contact</Link>
+                    <Link href='/media' className='hover:text-gray-900' passHref>Media</Link>
+                    <Link href='/' className='hover:text-gray-900' passHref>About Us</Link>
+                    <Link href='/' className='hover:text-gray-900' passHref>Contact</Link>
                 </Popover.Group>
                 </div>
             </div>
@@ -94,28 +94,28 @@ const HeaderNav = () => {
                             <div className="mt-6 pb-3 border-b-[2px] border-[#ed1c24]">
                                 <nav className="grid gap-y-8">
                                     <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Amoeba</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Avalon</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Beretta</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Colt</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>GLOCK</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Heckler & Koch</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Ruger</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>RWS</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Smith & Wesson</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>VFC</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline'>Walther</Link>
+                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Avalon</Link>
+                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Beretta</Link>
+                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Colt</Link>
+                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>GLOCK</Link>
+                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Heckler & Koch</Link>
+                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Ruger</Link>
+                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>RWS</Link>
+                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Smith & Wesson</Link>
+                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>VFC</Link>
+                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Walther</Link>
                                 </nav>
                             </div>
                         </div>
                         <div className="py-2 px-5 space-y-6">
                             <div className="grid grid-cols-2 gap-y-4 gap-x-8">
-                                <Link href="/media" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                                <Link href="/media" className='text-base font-medium text-gray-900 hover:text-gray-700' passHref>
                                     Media
                                 </Link>
-                                <Link href="/" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                                <Link href="/" className="text-base font-medium text-gray-900 hover:text-gray-700" passHref>
                                     About Us
                                 </Link>
-                                <Link href="/" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                                <Link href="/" className="text-base font-medium text-gray-900 hover:text-gray-700" passHref>
                                     Contact
                                 </Link>
                             </div>
