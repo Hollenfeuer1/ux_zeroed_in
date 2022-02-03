@@ -162,6 +162,7 @@ export const getCategoryPost = async (slug) => {
                 url
               }
             }
+            publishedDate
             createdAt
             slug
             title
@@ -220,7 +221,6 @@ export const getRecentPosts = async () => {
         featuredImage {
           url
         }
-        createdAt
         publishedDate
         slug
       }
