@@ -14,9 +14,9 @@ const ContactFooter = () => {
                     <span>Fort Smith, AR 72916</span>
     </div>*/}
                 <div className="">
-                    <h5 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+                    <h4 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
                         Contact Info
-                    </h5>
+                    </h4>
                     <p className="flex items-center justify-center md:justify-start mb-4">
                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home"
                             className="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">

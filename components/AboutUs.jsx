@@ -7,7 +7,7 @@ const AboutUs = () => {
             <div className='lg:flex flex-row justify-center items-center my-4'>
                 <div className=''><Image src='/ux_zeroed_in_stacked.png' height={148} width={219} alt='Umarex Zeroed In' /></div>
                 <div className='lg:mx-8 lg:w-2/5'>
-                    <h2 className='uppercase text-2xl font-semibold'>Umarex&reg; USA</h2>
+                    <h1 className='uppercase text-2xl font-semibold'>Umarex&reg; USA</h1>
                     <hr className='border-2px border-[#ed1c24]' />
                     <p> Few brands are owned by family owned companies anymore, but that&#39;s not the case here. We are family owned. Our owners believe in family values and encourage us to provide you, our customer, with the recreational products you, your family and friends can use to enjoy and experience the wild outdoors. Check out our vast offering: Axeon Optics, Umarex Airguns, Elite Force Airsoft, Rekt Dart Launchers, &amp; T4E Training.</p>
                 </div>
