@@ -8,6 +8,7 @@ export default function Home({ posts }) {
       <Head>
         <title>Umarex USA Zeroed In</title>
         <meta name="description" content="Umarex USA Brands" />
+        <meta name='theme-color' content='#ed1c24'/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <AboutUs />
