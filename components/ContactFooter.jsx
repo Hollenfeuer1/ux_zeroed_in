@@ -4,28 +4,23 @@ import Image from 'next/image';
 const ContactFooter = () => {
     return (
         <footer className='text-center lg:text-left bg-[#ed1c24] text-white'>
-            <div className='flex justify-center items-center lg:justify-between p-6'>
-                {/*<h3 className='uppercase'>Contact Info</h3>
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 fill-white float-left" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-                    </svg>
-                    <span>7700 Chad Colley Blvd</span>
-                    <span>Fort Smith, AR 72916</span>
-    </div>*/}
+            <div className='flex justify-center items-center lg:justify-evenly p-6'>
                 <div className="">
                     <h4 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
                         Contact Info
                     </h4>
-                    <p className="flex items-center justify-center md:justify-start mb-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home"
-                            className="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                    <div className='flex'>
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home"
+                            className="w-4 h-6 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                             <path fill="currentColor"
                                 d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z">
                             </path>
                         </svg>
-                        <span>7700 Chad Colley Blvd. Fort Smith, AR 72916</span>
+                    <p className="flex flex-col md:justify-start mb-4">
+                        <span>7700 Chad Colley Blvd.</span>
+                        <span>Fort Smith, AR 72916</span>
                     </p>
+                    </div>
                     <p className="flex items-center justify-center md:justify-start mb-4">
                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
                             className="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"

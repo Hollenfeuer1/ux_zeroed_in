@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import ContactFooter from '../components/ContactFooter';
 import AboutUs from '../components/AboutUs';
 
 export default function Home({ posts }) {
@@ -13,7 +12,6 @@ export default function Home({ posts }) {
         <link rel="canonical" href="https://ux-zeroed-in.vercel.app" />
       </Head>
       <AboutUs />
-      <ContactFooter />
     </div>
   )
 }
