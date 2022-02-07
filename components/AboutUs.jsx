@@ -33,7 +33,7 @@ const AboutUs = () => {
                     <div id='2006'>
                         <div className='flex flex-row flex-wrap content-end lg:flex-nowrap'>
                             <h3 className='mr-4 font-bold text-3xl text-[#939598]'>2006</h3>
-                            <Image src='/UmarexUSA_Logo.png' width='230' height='22' alt='Umarex USA Logo' id='UX-USA-Logo'/>
+                            <Image src='/UmarexUSA_Logo.png' width={300} height={28} alt='Umarex USA Logo' id='UX-USA-Logo'/>
                         </div>
                         <hr className='border-2px border-[#ed1c24]' />
                         <p>RUAG Ammotec USA, a US distributer of RWS air rifles, is purchased by PW Intl GmbH, moved to Fort Smith, Arkansas and renamed to Umarex USA.</p>
