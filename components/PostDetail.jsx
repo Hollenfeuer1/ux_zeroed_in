@@ -45,9 +45,9 @@ const PostDetail = ({ post }) => {
   return (
     <div className='sm:mt-8 bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8 border-b-[3px] border-[#ed1c24]'>
       <Link href='/media' passHref>
-        <button className='flex bg-[#ed1c24] text-white rounded py-1 px-2 mb-2 hover:underline'>
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 cursor-pointer" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M15.707 15.707a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414l5-5a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 010 1.414zm-6 0a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414l5-5a1 1 0 011.414 1.414L5.414 10l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+        <button className='flex shadow w-32 block border-[#ed1c24] border-2 rounded-xl focus:outline-none focus:border-[#ed1c24] px-4 py-2 text-[#ed1c24] hover:bg-[#ed1c24] hover:text-white mb-2'>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
           </svg>
           <span className='mr-2 cursor-pointer font-bold'>Back</span>
         </button>
@@ -66,7 +66,7 @@ const PostDetail = ({ post }) => {
             <p className='inline align-middle text-gray-700 ml-2 text-lg'>{post.author.name}</p>
           </div>
           <div className='font-medium text-gray-700'>
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline mr-2 text-pink-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline mr-2 text-[#ed1c24]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
             </svg>
             <span>

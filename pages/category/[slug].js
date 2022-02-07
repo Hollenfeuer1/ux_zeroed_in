@@ -16,11 +16,11 @@ const CategoryPost = ({ posts }) => {
   return (
     <div className="container mx-auto px-10 mb-8">
       <Link href='/media' passHref>
-        <button className='flex lg:pl-8 mt-4'>
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-[#ed1c24] mr-2 cursor-pointer" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M15.707 15.707a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414l5-5a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 010 1.414zm-6 0a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414l5-5a1 1 0 011.414 1.414L5.414 10l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+        <button className='flex shadow w-32 block border-[#ed1c24] border-2 rounded-xl focus:outline-none focus:border-[#ed1c24] px-4 py-2 text-[#ed1c24] hover:bg-[#ed1c24] hover:text-white lg:ml-8 mt-4'>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
           </svg>
-          <span className='text-[#ed1c24] mr-2 cursor-pointer font-bold'>Back</span>
+          <span className='mr-2 cursor-pointer font-bold'>Back</span>
         </button>
       </Link>
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
