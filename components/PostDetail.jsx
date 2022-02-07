@@ -46,8 +46,8 @@ const PostDetail = ({ post }) => {
     <div className='sm:mt-8 bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8 border-b-[3px] border-[#ed1c24]'>
       <Link href='/media' passHref>
         <button className='flex shadow w-32 block border-[#ed1c24] border-2 rounded-xl focus:outline-none focus:border-[#ed1c24] px-4 py-2 text-[#ed1c24] hover:bg-[#ed1c24] hover:text-white mb-2'>
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
           </svg>
           <span className='mr-2 cursor-pointer font-bold'>Back</span>
         </button>
