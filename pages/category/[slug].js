@@ -16,7 +16,7 @@ const CategoryPost = ({ posts }) => {
   return (
     <div className="container mx-auto px-10 mb-8">
       <Link href='/media' passHref>
-        <button className='flex shadow w-32 block border-[#ed1c24] border-2 rounded-xl focus:outline-none focus:border-[#ed1c24] px-4 py-2 text-[#ed1c24] hover:bg-[#ed1c24] hover:text-white lg:ml-8 mt-4'>
+        <button className='flex shadow w-32 block border-[#ed1c24] border-2 rounded-xl focus:outline-none focus:border-[#ed1c24] px-4 py-2 text-[#ed1c24] hover:bg-[#ed1c24] hover:text-white lg:ml-8 mt-4 mb-2 lg:mb-0'>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
           </svg>

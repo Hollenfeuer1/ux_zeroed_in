@@ -91,24 +91,11 @@ const HeaderNav = () => {
                                     </Popover.Button>
                                 </div>
                             </div>
-                            <div className="mt-6 pb-3 border-b-[2px] border-[#ed1c24]">
+                            <div className="mt-6 pb-3">
                                 <nav className="grid gap-y-8">
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Amoeba</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Avalon</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Beretta</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Colt</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>GLOCK</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Heckler & Koch</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Ruger</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>RWS</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Smith & Wesson</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>VFC</Link>
-                                    <Link href='/' className='-m-3 p-3 flex items-start rounded-lg hover:underline' passHref>Walther</Link>
-                                </nav>
-                            </div>
-                        </div>
-                        <div className="py-2 px-5 space-y-6">
-                            <div className="grid grid-cols-2 gap-y-4 gap-x-8">
+                                <Link href="/licensed-brands" className='text-base font-medium text-gray-900 hover:text-gray-700' passHref>
+                                    Licensed Brands
+                                </Link>
                                 <Link href="/media" className='text-base font-medium text-gray-900 hover:text-gray-700' passHref>
                                     Media
                                 </Link>
@@ -118,6 +105,7 @@ const HeaderNav = () => {
                                 <Link href="/" className="text-base font-medium text-gray-900 hover:text-gray-700" passHref>
                                     Contact
                                 </Link>
+                                </nav>
                             </div>
                         </div>
                     </div>

@@ -62,6 +62,10 @@
     top: -1px;
   }
 
+  #timeline h2 {
+    font-family: 'Arimo', sans-serif;
+  }
+
   #uxStartDate {
     background-image: url('/ux_timeline_building.png');
   }
