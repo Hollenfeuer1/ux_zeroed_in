@@ -1,0 +1,148 @@
+
+.cardText{
+  border-top: 2px solid red;
+}
+/*********************************************************************************/
+/* Begin AboutUs.css                                                             */
+/*********************************************************************************/
+.AboutUsContainer{
+  margin: auto;
+}
+.center{
+  width: 50%;
+  margin: auto;
+}
+.zeroed-in{
+  height: auto;
+  width: 35%;
+  margin-top: 0%;
+  margin-left: -25%;
+  margin-right: 5%;
+  float: left;
+}
+.Umarex-USA{
+  width: 100%;
+  margin-left: 15%;
+  margin-bottom: -10%;
+}
+.Umarex-USA p{
+  border-top: 2px solid red;
+  text-align: left;
+  
+}
+.Umarex-USA p,h1{
+  margin-left: 15%;
+}
+.umarex-story{
+  width: 5%;
+  margin-left: -15%;
+  margin-top: -140%;
+  margin-bottom: 5%;
+  z-index: -1;
+}
+@media (max-width: 768px){
+  .zeroed-in{
+    margin-top: 25%;
+  }
+	.Umarex-USA{
+  	width: 80%;
+    margin-left: 0;
+  }
+  .umarex-story{
+    display: none;
+  }
+} 
+
+/*********************************************************************************/
+/* Begin Timeline.css                                                            */
+/*********************************************************************************/
+
+ .timeline-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 5em 0;
+  grid-auto-rows: minmax(50px, auto);
+  margin: auto;
+  margin-top: 20%;
+}
+.y1972{
+  float: left;
+  margin-top: -10%;
+}
+.one{
+  grid-column: 1;
+  grid-row: 1;
+}
+.two{
+  grid-column: 1;
+  grid-row: 2;
+}
+.three{
+  grid-column: 1;
+  grid-row: 3;
+}
+.four{
+  grid-column: 1;
+  grid-row: 4;
+}
+.five{
+  grid-column: 2;
+  grid-row: 1;
+}
+.six{
+  grid-column: 2;
+  grid-row: 2;
+}
+.seven{
+  grid-column: 2;
+  grid-row: 3;
+}
+.eight{
+  grid-column: 2;
+  grid-row: 4;
+}
+.nine{
+  grid-column: 2;
+  grid-row: 5;
+}
+.oneImg{
+  max-width: 50%;
+  margin-left: 55%;
+  margin-top: -25%;
+}
+.oneImgBg{
+  max-width: 100%;
+  transform: scale(1.5);
+  opacity: 15%;
+  margin-bottom: -17%;
+  z-index: -1;
+}
+.threeImg{
+  max-width: 75%;
+  margin-left: 30%;
+  margin-top: -25%;
+}
+.eightImg{
+  max-width: 24%;
+  margin-left: 70%;
+  margin-top: -30%;
+}
+@media (max-width: 768px){
+	.timeline-grid{
+  	display: block;
+  }
+  .oneImg{
+    margin-top: -25%;
+  }
+  .threeImg{
+    margin-top: -25%;
+    margin-left: 30%;
+  }
+  .eigthImg{
+    margin-top: -50%;
+  }
+}
+/*********************************************************************************/
+/* Begin TimelinePiece.css                                                       */
+/*********************************************************************************/
+

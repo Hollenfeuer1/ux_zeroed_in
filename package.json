@@ -2,7 +2,7 @@
   "name": "ux_zeroed_in",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -10,14 +10,17 @@
   "dependencies": {
     "@headlessui/react": "^1.4.3",
     "@heroicons/react": "^1.0.5",
+    "bootstrap": "^5.1.3",
     "graphql": "^16.3.0",
     "graphql-request": "^4.0.0",
     "html-react-parser": "^1.4.6",
     "moment": "^2.29.1",
     "next": "^12.0.10",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.1.2",
+    "react-dom": "^17.0.2",
     "react-multi-carousel": "^2.6.5",
+    "reactstrap": "^9.0.1",
     "sass": "^1.49.0"
   },
   "devDependencies": {

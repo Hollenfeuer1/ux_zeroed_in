@@ -4,6 +4,7 @@ import 'tailwindcss/tailwind.css';
 import '../styles/globals.scss';
 import '../styles/mainStyle.css';
 import '../styles/AccordianStyles.scss';
+import '../styles/App.css';
 
 function MyApp({ Component, pageProps }) {
   return (
