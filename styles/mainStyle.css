@@ -73,3 +73,28 @@
   #UX-USA-Logo {
     min-height: 60% !important;
   }
+
+  #umarex {
+    background-image: url(/background3.jpg);
+    background-size: cover;
+  }
+  #axeon {
+    background-image: url(/background4.jpg);
+    background-size: cover;
+  }
+  #elite-force {
+    background-image: url(/background5.jpg);
+    background-size: cover;
+  }
+  #rekt {
+    background-image: url(/background7.jpg);
+    background-size: cover;
+  }
+  #p2p {
+    background-image: url(/background6.jpg);
+    background-size: cover;
+  }
+  #t4e {
+    background-image: url(/background8.jpg);
+    background-size: cover;
+  }

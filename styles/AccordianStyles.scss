@@ -1,0 +1,125 @@
+$component: '.c-accordion';
+
+:root {
+ font-family: 'Lato', sans-serif;
+ --color-primary: grey;
+ 
+ 
+ --cover-placeholder: var(--color-primary);
+}
+
+body {
+ padding: 0;
+ margin: 0;
+ height: 100vh;
+}
+
+#{$component} {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ height: 100%;
+ display: flex;
+ flex: 1 1 auto;
+ overflow: hidden;
+ &__item {
+  --cover: var(--cover-placeholder);
+  background: var(--cover);
+  background-position: center center;
+  background-size: cover;
+  background-color: var(--cover-placeholder);
+  background-blend-mode: luminosity;
+  
+  position: relative;
+  flex-grow: 1;
+  height: 100%;
+  width: 100px;
+  min-width: 2.05rem;
+  transition: all .3s ease-in-out;
+  
+  &:hover, &:focus-within, &:target {
+   _flex-grow: 2;
+   width: 100%;
+   background-color: transparent;
+   #{$component} {
+    &__title {
+     &--hover-hide {
+      max-height: 0;
+      opacity: 0;
+     }
+     &--hover-show {
+      opacity: 1;
+     }
+    }
+    &__description {
+     opacity: 1;
+    }
+   }
+  }
+  
+  &:hover {
+   cursor: pointer;
+  }
+ }
+ &__action {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+  text-decoration: none;
+ }
+ &__title {
+  color: white;
+  margin: 0;
+  max-height: 100%;
+  transition: all .3s ease-in-out;
+  overflow: hidden;
+  &--hover-show {
+   opacity: 0;
+   width: 100%;
+  }
+  &--hero {
+   font-size: 3rem;
+   line-height: 150%;
+  }
+ }
+ &__aside {
+  padding: 1rem;
+  position: absolute;
+  height: 100%;
+  right: 1rem;
+  bottom: 0;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  &:after {
+   content: '';
+   flex-grow: 1;
+   width: 1px;
+   display: block;
+   margin-top: 1rem;
+   background-color: rgba(255, 255, 255, .2);
+  }
+ }
+ &__content {
+  padding: 2rem 2.5rem 0 2rem;
+  width: 50%;
+ }
+ &__description {
+  color: white;
+  font-weight: 400;
+  line-height: 120%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  opacity: 0;
+  transition: all .3s ease-in-out;
+ }
+}

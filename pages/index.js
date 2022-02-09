@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import AboutUs from '../components/AboutUs';
+import HomeAccordian from '../components/HomeAccordian';
 
 export default function Home({ posts }) {
   return (
@@ -11,6 +12,7 @@ export default function Home({ posts }) {
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://ux-zeroed-in.vercel.app" />
       </Head>
+      <HomeAccordian />
       <AboutUs />
     </div>
   )
