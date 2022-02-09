@@ -8,7 +8,7 @@ const HomeAccordian = () => {
         <a href="#joker" className="c-accordion__action">
           <div className="c-accordion__content">
             <h2 className="c-accordion__title c-accordion__title--hero c-accordion__title--hover-show">Umarex</h2>
-            <p className="c-accordion__description">Few brands are owned by family owned companies anymore, but that's not the case here. We are family owned. Our owners believe in family values and encourage us to provide you, our customer, with the recreational products you, your family and friends can use to enjoy and experience the wild outdoors. Check out our vast offering: Axeon Optics, Umarex Airguns, Elite Force Airsoft, Rekt Dart Launchers, & T4E Training.</p>
+            <p className="c-accordion__description">Few brands are owned by family owned companies anymore, but that&apos;s not the case here. We are family owned. Our owners believe in family values and encourage us to provide you, our customer, with the recreational products you, your family and friends can use to enjoy and experience the wild outdoors. Check out our vast offering: Axeon Optics, Umarex Airguns, Elite Force Airsoft, Rekt Dart Launchers, & T4E Training.</p>
           </div>
           <div className="c-accordion__aside">
             <h2 className="c-accordion__title c-accordion__title--hover-hide">Umarex</h2>
@@ -20,7 +20,7 @@ const HomeAccordian = () => {
           <div className="c-accordion__content">
             <h2 className="c-accordion__title c-accordion__title--hero c-accordion__title--hover-show">Axeon Optics</h2>
             <p className="c-accordion__description">
-            Few brands are owned by family owned companies anymore, but that's not the case here. We are family owned. Our owners believe in family values and encourage us to provide you, our customer, with the recreational products you, your family and friends can use to enjoy and experience the wild outdoors. Check out our vast offering: Axeon Optics, Umarex Airguns, Elite Force Airsoft, Rekt Dart Launchers, & T4E Training.
+            Few brands are owned by family owned companies anymore, but that&apos;s not the case here. We are family owned. Our owners believe in family values and encourage us to provide you, our customer, with the recreational products you, your family and friends can use to enjoy and experience the wild outdoors. Check out our vast offering: Axeon Optics, Umarex Airguns, Elite Force Airsoft, Rekt Dart Launchers, & T4E Training.
             </p>
           </div>
           <div className="c-accordion__aside">
@@ -33,7 +33,7 @@ const HomeAccordian = () => {
           <div className="c-accordion__content">
             <h2 className="c-accordion__title c-accordion__title--hero c-accordion__title--hover-show">Elite Force</h2>
             <p className="c-accordion__description">
-            Few brands are owned by family owned companies anymore, but that's not the case here. We are family owned. Our owners believe in family values and encourage us to provide you, our customer, with the recreational products you, your family and friends can use to enjoy and experience the wild outdoors. Check out our vast offering: Axeon Optics, Umarex Airguns, Elite Force Airsoft, Rekt Dart Launchers, & T4E Training.
+            Few brands are owned by family owned companies anymore, but that&apos;s not the case here. We are family owned. Our owners believe in family values and encourage us to provide you, our customer, with the recreational products you, your family and friends can use to enjoy and experience the wild outdoors. Check out our vast offering: Axeon Optics, Umarex Airguns, Elite Force Airsoft, Rekt Dart Launchers, & T4E Training.
             </p>
           </div>
           <div className="c-accordion__aside">
@@ -46,7 +46,7 @@ const HomeAccordian = () => {
           <div className="c-accordion__content">
             <h2 className="c-accordion__title c-accordion__title--hero c-accordion__title--hover-show">REKT</h2>
             <p className="c-accordion__description">
-            Few brands are owned by family owned companies anymore, but that's not the case here. We are family owned. Our owners believe in family values and encourage us to provide you, our customer, with the recreational products you, your family and friends can use to enjoy and experience the wild outdoors. Check out our vast offering: Axeon Optics, Umarex Airguns, Elite Force Airsoft, Rekt Dart Launchers, & T4E Training.
+            Few brands are owned by family owned companies anymore, but that&apos;s not the case here. We are family owned. Our owners believe in family values and encourage us to provide you, our customer, with the recreational products you, your family and friends can use to enjoy and experience the wild outdoors. Check out our vast offering: Axeon Optics, Umarex Airguns, Elite Force Airsoft, Rekt Dart Launchers, & T4E Training.
             </p>
           </div>
           <div className="c-accordion__aside">
@@ -59,7 +59,7 @@ const HomeAccordian = () => {
           <div className="c-accordion__content">
             <h2 className="c-accordion__title c-accordion__title--hero c-accordion__title--hover-show">P2P</h2>
             <p className="c-accordion__description">
-            Few brands are owned by family owned companies anymore, but that's not the case here. We are family owned. Our owners believe in family values and encourage us to provide you, our customer, with the recreational products you, your family and friends can use to enjoy and experience the wild outdoors. Check out our vast offering: Axeon Optics, Umarex Airguns, Elite Force Airsoft, Rekt Dart Launchers, & T4E Training.
+            Few brands are owned by family owned companies anymore, but that&apos;s not the case here. We are family owned. Our owners believe in family values and encourage us to provide you, our customer, with the recreational products you, your family and friends can use to enjoy and experience the wild outdoors. Check out our vast offering: Axeon Optics, Umarex Airguns, Elite Force Airsoft, Rekt Dart Launchers, & T4E Training.
             </p>
           </div>
           <div className="c-accordion__aside">
@@ -72,7 +72,7 @@ const HomeAccordian = () => {
           <div className="c-accordion__content">
             <h2 className="c-accordion__title c-accordion__title--hero c-accordion__title--hover-show">T4E</h2>
             <p className="c-accordion__description">
-            Few brands are owned by family owned companies anymore, but that's not the case here. We are family owned. Our owners believe in family values and encourage us to provide you, our customer, with the recreational products you, your family and friends can use to enjoy and experience the wild outdoors. Check out our vast offering: Axeon Optics, Umarex Airguns, Elite Force Airsoft, Rekt Dart Launchers, & T4E Training.
+            Few brands are owned by family owned companies anymore, but that&apos;s not the case here. We are family owned. Our owners believe in family values and encourage us to provide you, our customer, with the recreational products you, your family and friends can use to enjoy and experience the wild outdoors. Check out our vast offering: Axeon Optics, Umarex Airguns, Elite Force Airsoft, Rekt Dart Launchers, & T4E Training.
             </p>
           </div>
           <div className="c-accordion__aside">
