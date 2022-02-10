@@ -3,12 +3,14 @@ import TimelinePiece from "./TimelinePiece";
 
 function Timeline() {
     return (
-        <><div className="timeline-grid">
+        <div className="timeline-grid">
             <div className="one">
                 <TimelinePiece
                     year={"1972"}
                     title="y1972"
+                    optionalImage="/ux_timeline_building.png"
                     optionalImage2="/Umarex1972_Logo.png"
+                    className1="oneImgBg"
                     className2="oneImg"
                     text={"Wulf-Heinz Pflaumer & Franz Wonisch are working on a venture that would come to be called Umarex."} />
             </div>
@@ -21,7 +23,8 @@ function Timeline() {
             <div className="three">
                 <TimelinePiece
                     year={"2006"}
-                    optionalImage2=""
+                    title="y2006"
+                    optionalImage2="/UmarexUSA_Logo.png"
                     className2="threeImg"
                     text={"RUAG Ammotec USA, a US distributor of RWS air rifles, is purchased by PW Intl GmbH, moved to Fort Smith, Arkansas and renamed to Umarex USA."} />
             </div>
@@ -48,7 +51,7 @@ function Timeline() {
             <div className="eight">
                 <TimelinePiece
                     year={"2014"}
-                    optionalImage2=""
+                    optionalImage2="/ux_airguns_stacked.jpg"
                     className2="eightImg"
                     text={"Umarex USA introduces the UX mark. The UX is incorporated into airguns and marketing materials creating a powerful mark that is eye-catching and memorable."} />
             </div>
@@ -58,7 +61,6 @@ function Timeline() {
                     text={"While Umarex remains the \"King of Replicas\" in airguns, its patented technology like the safety system and dual round magazine of the Umare Hammer couple with modern-day air filling solutions and unique optic intellectual properties insures Umarex continues to be zeroed in."} />
             </div>
         </div>
-        </>
     )
 }
 

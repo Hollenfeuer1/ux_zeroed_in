@@ -17,7 +17,7 @@ const HeaderNav = () => {
             <div className='max-w-7xl mx-auto px-4 sm:px-6'>
                 <div className='flex justify-between items-center py-6 md:justify-start md:space-x-10'>
                     <div className='flex justify-start lg:w-0 lg:flex-1'>
-                        <Link href='/' passHref><Image src='/ux_home_logo.png' alt='Umarex USA Logo' width={300} height={27} className='md:float-right mt-2 align-middle ml-4 cursor-pointer' /></Link>
+                        <Link href='/' passHref><Image src='/ux_home_logo.png' alt='Umarex USA Logo' width={300} height={27} className='md:float-right align-middle ml-4 cursor-pointer' /></Link>
                     </div>
                     <div className='-mr-2 -my-2 md:hidden'>
                         <Popover.Button className='rounded-md p-2 inline-flex items center justify-center text-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500'>

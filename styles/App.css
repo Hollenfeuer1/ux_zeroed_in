@@ -23,7 +23,6 @@
 .Umarex-USA{
   width: 100%;
   margin-left: 15%;
-  margin-bottom: -10%;
 }
 .Umarex-USA p{
   border-top: 2px solid red;
@@ -34,9 +33,9 @@
   margin-left: 15%;
 }
 .umarex-story{
-  width: 5%;
-  margin-left: -15%;
-  margin-top: -140%;
+  width: 15%;
+  margin-left: -25%;
+  margin-top: -190%;
   margin-bottom: 5%;
   z-index: -1;
 }
@@ -60,14 +59,11 @@
  .timeline-grid{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  gap: 5em 0;
+  gap: 1em 0;
   grid-auto-rows: minmax(50px, auto);
   margin: auto;
-  margin-top: 20%;
-}
-.y1972{
-  float: left;
-  margin-top: -10%;
+  margin-top: 10%;
+  margin-bottom: 55%;
 }
 .one{
   grid-column: 1;
@@ -108,24 +104,23 @@
 .oneImg{
   max-width: 50%;
   margin-left: 55%;
-  margin-top: -25%;
+  margin-top: -15%;
 }
 .oneImgBg{
   max-width: 100%;
   transform: scale(1.5);
   opacity: 15%;
   margin-bottom: -17%;
-  z-index: -1;
 }
 .threeImg{
   max-width: 75%;
   margin-left: 30%;
-  margin-top: -25%;
+  margin-top: -10%;
 }
 .eightImg{
   max-width: 24%;
   margin-left: 70%;
-  margin-top: -30%;
+  margin-top: -19%;
 }
 @media (max-width: 768px){
 	.timeline-grid{
@@ -145,4 +140,6 @@
 /*********************************************************************************/
 /* Begin TimelinePiece.css                                                       */
 /*********************************************************************************/
+.cardContainer{
 
+}

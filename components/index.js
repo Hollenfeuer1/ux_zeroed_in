@@ -10,3 +10,5 @@ export { default as AboutUs } from './AboutUs';
 export { default as Loader } from './Loader';
 export { default as ContactFooter } from './ContactFooter';
 export { default as HomeAccordian } from './HomeAccordian';
+export { default as TimelinePiece } from './TimelinePiece';
+export { default as Timelin } from './Timeline';
