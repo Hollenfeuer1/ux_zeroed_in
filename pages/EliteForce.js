@@ -5,7 +5,7 @@ import bg from '../public/background3.jpg'
 function EliteForce() {
     return (
         <div className='MobileHeaderContainer'>
-            <div className='SliderImgContainer'>
+            <div className='SliderImgContainer mb-10'>
                 <Image className='SliderImg ' width={1000} height={500} src='/background5.jpg ' />
                 <div className='float-right max-w-4xl max-h-full bg-white pb-36'>
                     <div className='ml-64 mt-10'>

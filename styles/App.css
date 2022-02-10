@@ -6,7 +6,7 @@
 /* Begin AboutUs.css                                                             */
 /*********************************************************************************/
 .AboutUsContainer{
-  margin-top: 10%;
+  margin-top: auto;
 }
 .center{
   width: 50%;
@@ -104,7 +104,7 @@
 .oneImg{
   max-width: 50%;
   margin-left: 55%;
-  margin-top: -15%;
+  margin-top: -10%;
 }
 .oneImgBg{
   max-width: 100%;
@@ -115,7 +115,7 @@
 .threeImg{
   max-width: 75%;
   margin-left: 30%;
-  margin-top: -10%;
+  margin-top: -8%;
 }
 .eightImg{
   max-width: 24%;
