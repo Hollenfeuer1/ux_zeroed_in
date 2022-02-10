@@ -6,27 +6,25 @@ import story from '../public/the_umarex_story.png';
 
 const AboutUs = () => {
     return (
-        <div className='lg:flex flex-row justify-center items-center my-4'>
-            <div className="AboutUsContainer">
-                <div className='center'>
-                    <div className="Umarex-USA">
-                        <div className="zeroed-in">
-                            <Image src={logo} />
-                        </div>
-                        <h1>UMAREX® USA</h1>
-                        <p>Few brands are owned by family owned companies anymore, but that&apos;s
-                            not the case here. We are family owned. Our owners believe in
-                            family values and encourage us to provide you, our customer, with
-                            recreational products you, your family, and friends can use to
-                            enjoy and experience the wild outdoors. Check out our vast offering:
-                            Axeon Optics, Umarex Airguns, Exude Lights, Elite Force Airsoft,
-                            Rekt Dart Launchers, T4E Training.
-                        </p>
+        <div className="AboutUsContainer">
+            <div className='center'>
+                <div className="Umarex-USA">
+                    <div className="zeroed-in">
+                        <Image src={logo} />
                     </div>
-                    <Timeline />
-                    <div className='umarex-story'>
-                        <Image src={story} />
-                    </div>
+                    <h1>UMAREX® USA</h1>
+                    <p>Few brands are owned by family owned companies anymore, but that&apos;s
+                        not the case here. We are family owned. Our owners believe in
+                        family values and encourage us to provide you, our customer, with
+                        recreational products you, your family, and friends can use to
+                        enjoy and experience the wild outdoors. Check out our vast offering:
+                        Axeon Optics, Umarex Airguns, Exude Lights, Elite Force Airsoft,
+                        Rekt Dart Launchers, T4E Training.
+                    </p>
+                </div>
+                <Timeline />
+                <div className='umarex-story'>
+                    <Image src={story} />
                 </div>
             </div>
         </div>

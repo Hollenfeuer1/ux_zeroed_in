@@ -9,12 +9,12 @@ const GreyNav = () => {
                 <div className='flex justify-between items-center py-6 md:justify-start md:space-x-10'>
                     <Popover.Group as='nav' className='hidden md:flex space-x-10 text-white uppercase font-semibold'>
                         <Link href='/'>All Brands</Link>
-                        <Link href='/'>Umarex</Link>
-                        <Link href='/'>Axeon Optics</Link>
-                        <Link href='/'>Elite Force</Link>
-                        <Link href='/'>REKT</Link>
-                        <Link href='/'>P2P</Link>
-                        <Link href='/'>T4E</Link>
+                        <Link href='/Umarex'>Umarex</Link>
+                        <Link href='/Axeon'>Axeon Optics</Link>
+                        <Link href='/EliteForce'>Elite Force</Link>
+                        <Link href='/Rekt'>REKT</Link>
+                        <Link href='/P2P'>P2P</Link>
+                        <Link href='/T4E'>T4E</Link>
                     </Popover.Group>
                 </div>
             </div>
