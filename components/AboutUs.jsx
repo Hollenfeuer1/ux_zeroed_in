@@ -12,7 +12,7 @@ const AboutUs = () => {
                     <div className="zeroed-in">
                         <Image src={logo} />
                     </div>
-                    <h1>UMAREX® USA</h1>
+                    <h1 className='aboutUsTitle'>UMAREX® USA</h1>
                     <p>Few brands are owned by family owned companies anymore, but that&apos;s
                         not the case here. We are family owned. Our owners believe in
                         family values and encourage us to provide you, our customer, with
