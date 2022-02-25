@@ -1,11 +1,5 @@
 import React from "react";
-import {
-    Card,
-    CardBody,
-    CardImg,
-    CardTitle,
-    CardText,
-} from "reactstrap";
+
 function TimelinePiece({ year, title, optionalImage, optionalImage2, text, className1, className2 }) {
     return (
         <div className="border-4">
