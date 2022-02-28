@@ -11,7 +11,7 @@ function Axeon() {
                     <div className='ml-64 mt-10'>
                         <Image className='UmarexAirguns' width={200} height={150} src='/ux_airguns_stacked.jpg' />
                     </div>
-                    <p class='mr-12'>Few brands are owned by family owned companies anymore, but that&apos;s
+                    <p className='mr-12'>Few brands are owned by family owned companies anymore, but that&apos;s
                         not the case here. We are family owned. Our owners believe in
                         family values and encourage us to provide you, our customer, with
                         recreational products you, your family, and friends can use to
